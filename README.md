@@ -52,6 +52,8 @@ jq 'sort_by(.repo)' indieweb-projects.json > temp.json
 mv temp.json indieweb-projects.json
 ```
 
+In the future, I may add other properties for signals that do not have other sources (e.g. if looking for new maintainers).
+
 ### Suggested Categories
 
 You can include multiple categories that pertain to the project to help with identifying the project purpose.
@@ -76,7 +78,7 @@ The following GitHub CLI command can be helpful for exporting a whole GitHub org
 ```bash
 gh repo list <ORG_NAME> --visibility public --limit 500 \
   --json name,description,url,homepageUrl \
-  --jq '[.[] | {url: .homepageUrl, repo: .url, description: .description, name: .name}]' \
+  --jq '[.[ ] | {url: .homepageUrl, repo: .url, description: .description, name: .name}]' \
   | jq \
   > temp-file.json
 ```
@@ -85,7 +87,7 @@ gh repo list <ORG_NAME> --visibility public --limit 500 \
 
 ```bash
 npm search --json <search_term> \
-  | jq '[.[] | {name: .name, url: .links.homepage, repo: .links.repository, description: .description, packages: { npm: [.name]} }]' \
+  | jq '[.[ ] | {name: .name, url: .links.homepage, repo: .links.repository, description: .description, packages: { npm: [.name]} }]' \
   > temp-file.json
 ```
 
@@ -96,33 +98,33 @@ NPM often has git repository URLs pointing to the actual git+ URL. With a regex 
 Here are some of the signals I'd like to capture:
 
 - Clear description signals
-    - [] Repo description
-    - [] Project URL
-    - [] Project README.md
-    - [] Primary software language
+    - [ ] Repo description
+    - [ ] Project URL
+    - [ ] Project README.md
+    - [ ] Primary software language
 - Activity signals
-    - [] Recent commits
-    - [] Recent lines changed
-    - [] Latest release date
-    - [] Number of git tags
+    - [ ] Recent commits
+    - [ ] Recent lines changed
+    - [ ] Latest release date
+    - [ ] Number of git tags
 - Project health signals
-    - [] Open issues
-    - [] Open PRs
-    - [] Number of dependencies
+    - [ ] Open issues
+    - [ ] Open PRs
+    - [ ] Number of dependencies
 - Security signals
-    - [] SECURITY.md file
-    - [] Dependency vulnerability scan results
+    - [ ] SECURITY.md file
+    - [ ] Dependency vulnerability scan results
 - Contributions
-    - [] How many package publisher
-    - [] How many repo maintainers
-    - [] How many git contributors
-    - [] CONTRIBUTING.md
+    - [ ] How many package publisher
+    - [ ] How many repo maintainers
+    - [ ] How many git contributors
+    - [ ] CONTRIBUTING.md
 - Reach
-    - [] How many installs
-    - [] How many reviews
+    - [ ] How many installs
+    - [ ] How many reviews
 - Qualitative signals
-    - [] Readme clarity
-    - [] Has unit tests
-    - [] "Stable" release versioning
+    - [ ] Readme clarity
+    - [ ] Has unit tests
+    - [ ] "Stable" release versioning
 
 See also: https://indieweb.org/2025/SD/opensource
