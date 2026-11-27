@@ -1,0 +1,763 @@
+[
+  {
+    "description": "Aperture is a Microsub server. Currently in beta.",
+    "name": "Aperture",
+    "repo": "https://github.com/aaronpk/Aperture",
+    "url": "https://aperture.p3k.io",
+    "categories": [
+      "web-service",
+      "microsub"
+    ]
+  },
+  {
+    "description": "Compass is a GPS tracking server that stores data in flat files.",
+    "name": "Compass",
+    "repo": "https://github.com/aaronpk/Compass",
+    "url": "",
+    "categories": [
+      "web-service",
+      "self-hosted"
+    ]
+  },
+  {
+    "description": "This service is being discontinued in favor of indielogin.com and indiekey.id",
+    "name": "IndieAuth.com",
+    "repo": "https://github.com/aaronpk/IndieAuth.com",
+    "url": "https://indieweb.org/indieauth.com",
+    "categories": [
+      "web-service",
+      "indieauth"
+    ]
+  },
+  {
+    "description": "",
+    "name": "IndieKey",
+    "repo": "https://github.com/aaronpk/IndieKey",
+    "url": "",
+    "categories": [
+      "web-service",
+      "indieauth"
+    ]
+  },
+  {
+    "description": "📰 News aggregator for IndieWeb-related posts",
+    "name": "IndieNews",
+    "repo": "https://github.com/aaronpk/IndieNews",
+    "url": "https://news.indieweb.org/",
+    "categories": [
+      "web-service"
+    ]
+  },
+  {
+    "description": "an event listing website",
+    "name": "Meetable",
+    "repo": "https://github.com/aaronpk/Meetable",
+    "url": "https://meetable.org",
+    "categories": [
+      "web-service"
+    ]
+  },
+  {
+    "description": "Monocle is a reader app that talks to a Microsub server",
+    "name": "Monocle",
+    "repo": "https://github.com/aaronpk/Monocle",
+    "url": "https://monocle.p3k.app",
+    "categories": [
+      "web-service",
+      "micropub"
+    ]
+  },
+  {
+    "description": "",
+    "name": "OwnYourSwarm",
+    "repo": "https://github.com/aaronpk/OwnYourSwarm",
+    "url": "https://aaronparecki.com/2017/03/19/7/day-89-ownyourswarm",
+    "categories": [
+      "web-service",
+      "micropub"
+    ]
+  },
+  {
+    "description": "🖋 A Micropub client for creating posts",
+    "name": "Quill",
+    "repo": "https://github.com/aaronpk/Quill",
+    "url": "https://quill.p3k.io/",
+    "categories": [
+      "web-service",
+      "micropub"
+    ]
+  },
+  {
+    "description": "Bridge Slack rooms to IRC channels",
+    "name": "Slack-IRC-Gateway",
+    "repo": "https://github.com/aaronpk/Slack-IRC-Gateway",
+    "url": "",
+    "categories": [
+      "web-service"
+    ]
+  },
+  {
+    "description": "☕️ Teacup is a simple Micropub app for tracking what you eat and drink",
+    "name": "Teacup",
+    "repo": "https://github.com/aaronpk/Teacup",
+    "url": "https://teacup.p3k.io",
+    "categories": [
+      "app",
+      "micropub"
+    ]
+  },
+  {
+    "description": "Telegraph is an API for sending Webmentions",
+    "name": "Telegraph",
+    "repo": "https://github.com/aaronpk/Telegraph",
+    "url": "https://telegraph.p3k.io",
+    "categories": [
+      "web-service",
+      "webmention"
+    ]
+  },
+  {
+    "description": "X-Ray returns structured data from any URL",
+    "name": "XRay",
+    "repo": "https://github.com/aaronpk/XRay",
+    "url": "https://xray.p3k.app",
+    "categories": [
+      "web-service",
+      "microformats"
+    ]
+  },
+  {
+    "description": "Sign in with your domain name",
+    "name": "indielogin.com",
+    "repo": "https://github.com/aaronpk/indielogin.com",
+    "url": "https://indielogin.com",
+    "categories": [
+      "web-service",
+      "indieauth"
+    ]
+  },
+  {
+    "description": "Micropub test suite and debugging utility",
+    "name": "micropub.rocks",
+    "repo": "https://github.com/aaronpk/micropub.rocks",
+    "url": "https://micropub.rocks",
+    "categories": [
+      "documentation",
+      "testing",
+      "micropub"
+    ]
+  },
+  {
+    "description": "Easily enable webmentions on any web site",
+    "name": "webmention.io",
+    "repo": "https://github.com/aaronpk/webmention.io",
+    "url": "https://webmention.io/",
+    "categories": [
+      "web-service",
+      "webmention"
+    ]
+  },
+  {
+    "description": "a webmention validator and test suite",
+    "name": "webmention.rocks",
+    "repo": "https://github.com/aaronpk/webmention.rocks",
+    "url": "https://webmention.rocks",
+    "categories": [
+      "documentation",
+      "testing",
+      "webmention"
+    ]
+  },
+  {
+    "description": "The little Node.js server with all the parts needed to publish content to your personal website and share it on social networks.",
+    "name": "indiekit",
+    "repo": "https://github.com/getindiekit/indiekit",
+    "url": "https://getindiekit.com",
+    "categories": [
+      "self-hosted",
+      "micropub"
+    ],
+    "packages": {
+      "npm": [
+        "@indiekit/error",
+        "@indiekit/frontend",
+        "@indiekit/util",
+        "@indiekit/preset-jekyll",
+        "@indiekit/endpoint-micropub",
+        "@indiekit/syndicator-mastodon",
+        "@indiekit/post-type-reply",
+        "@indiekit/post-type-bookmark",
+        "@indiekit/store-github",
+        "@indiekit/post-type-like",
+        "@indiekit/endpoint-auth",
+        "@indiekit/post-type-article",
+        "@indiekit/post-type-note",
+        "@indiekit/post-type-photo",
+        "@indiekit/post-type-rsvp"
+      ]
+    }
+  },
+  {
+    "name": "microformat-shiv",
+    "url": "http://microformat-shiv.com",
+    "repo": "https://github.com/glennjones/microformat-shiv",
+    "description": "A cross browser JavaScript Microformats 2 parser",
+    "packages": {
+      "npm": [
+        "microformat-shiv"
+      ]
+    },
+    "categories": [
+      "library",
+      "microformats"
+    ]
+  },
+  {
+    "description": "Setup a simple new indieweb site on a domain name in mere minutes with this project.",
+    "url": "http://indieweb.github.io/blank-gh-site/",
+    "name": "blank-gh-site",
+    "repo": "https://github.com/indieweb/blank-gh-site",
+    "categories": [
+      "starter"
+    ]
+  },
+  {
+    "description": "IndieWeb chat service",
+    "url": "https://chat.indieweb.org",
+    "name": "chat.indieweb.org",
+    "repo": "https://github.com/indieweb/chat.indieweb.org",
+    "categories": [
+      "web-service"
+    ]
+  },
+  {
+    "description": "A Ruby gem for discovering a URL's IndieAuth, Micropub, Microsub, and Webmention endpoints.",
+    "url": "https://rubygems.org/gems/indieweb-endpoints",
+    "name": "indieweb-endpoints-ruby",
+    "repo": "https://github.com/indieweb/indieweb-endpoints-ruby",
+    "packages": {
+      "ruby": [
+        "indieweb-endpoints"
+      ]
+    },
+    "categories": [
+      "library"
+    ]
+  },
+  {
+    "description": "Tools to help you get the best out of your indieweb site",
+    "url": "http://indiewebify.me",
+    "name": "indiewebify.me",
+    "repo": "https://github.com/indieweb/indiewebify-me",
+    "categories": [
+      "web-service",
+      "microformats"
+    ]
+  },
+  {
+    "description": "Client library for sending webmention and pingback notifications",
+    "url": "https://indieweb.org/webmention",
+    "name": "mention-client-php",
+    "repo": "https://github.com/indieweb/mention-client-php",
+    "packages": {
+      "php": [
+        "indieweb/mention-client "
+      ]
+    },
+    "categories": [
+      "library",
+      "webmention"
+    ]
+  },
+  {
+    "description": "Helper for parsing and presenting comments from external sites",
+    "url": "http://indiewebcamp.com/comments-presentation",
+    "name": "php-comments",
+    "repo": "https://github.com/indieweb/php-comments",
+    "packages": {
+      "php": [
+        "indieweb/comments"
+      ]
+    },
+    "categories": [
+      "library",
+      "microformats"
+    ]
+  },
+  {
+    "description": "A set of PHP functions for discovering, consuming and verifying the rel-me microformat.",
+    "url": "",
+    "name": "rel-me",
+    "repo": "https://github.com/indieweb/rel-me"
+  },
+  {
+    "description": "Given a parsed mf2 document, return the representative h-card for the page",
+    "url": "http://microformats.org/wiki/representative-h-card-parsing",
+    "name": "representative-h-card-php",
+    "repo": "https://github.com/indieweb/representative-h-card-php",
+    "packages": {
+      "php": [
+        "indieweb/representative-h-card"
+      ]
+    },
+    "categories": [
+      "library",
+      "microformats"
+    ]
+  },
+  {
+    "description": "Weekly newsletter of IndieWebCamp activity",
+    "url": "https://indieweb.org/this-week",
+    "name": "this-week",
+    "repo": "https://github.com/indieweb/this-week",
+    "categories": [
+      "web-service"
+    ]
+  },
+  {
+    "description": "A Ruby gem for sending and verifying Webmention notifications.",
+    "url": "https://rubygems.org/gems/webmention",
+    "name": "webmention-client-ruby",
+    "repo": "https://github.com/indieweb/webmention-client-ruby",
+    "packages": {
+      "ruby": [
+        "webmention"
+      ]
+    },
+    "categories": [
+      "library",
+      "webmention"
+    ]
+  },
+  {
+    "description": "IndieAuth for WordPress",
+    "url": "https://wordpress.org/plugins/indieauth/",
+    "name": "wordpress-indieauth",
+    "repo": "https://github.com/indieweb/wordpress-indieauth",
+    "packages": {
+      "wordpress": [
+        "indieauth"
+      ]
+    },
+    "categories": [
+      "indieauth"
+    ]
+  },
+  {
+    "description": "Allows Usage of a remote IndieAuth endpoint on a WordPress site",
+    "url": "",
+    "name": "wordpress-indieauth-remote",
+    "repo": "https://github.com/indieweb/wordpress-indieauth-remote"
+  },
+  {
+    "description": "Helps you establish your IndieWeb identity by extending the user profile to provide rel-me and h-card fields. It also includes a bundled installer for a core set of IndieWeb-related plugins.",
+    "url": "https://wordpress.org/plugins/indieweb/",
+    "name": "wordpress-indieweb",
+    "repo": "https://github.com/indieweb/wordpress-indieweb",
+    "packages": {
+      "wordpress": [
+        "indieweb"
+      ]
+    }
+  },
+  {
+    "description": "some IndieWeb magic for WordPress' \"press this\" bookmarklet",
+    "url": "https://wordpress.org/plugins/indieweb-press-this/",
+    "name": "wordpress-indieweb-press-this",
+    "repo": "https://github.com/indieweb/wordpress-indieweb-press-this",
+    "packages": {
+      "wordpress": [
+        "indieweb-press-this"
+      ]
+    }
+  },
+  {
+    "description": "Microformats2 Feed for WordPress URLs",
+    "url": "https://wordpress.org/plugins/mf2-feed/",
+    "name": "wordpress-mf2-feed",
+    "repo": "https://github.com/indieweb/wordpress-mf2-feed",
+    "packages": {
+      "wordpress": [
+        "mf2-feed"
+      ]
+    },
+    "categories": [
+      "microformats"
+    ]
+  },
+  {
+    "description": "A Micropub Endpoint plugin for WordPress",
+    "url": "https://wordpress.org/plugins/micropub",
+    "name": "wordpress-micropub",
+    "repo": "https://github.com/indieweb/wordpress-micropub",
+    "packages": {
+      "wordpress": [
+        "micropub"
+      ]
+    },
+    "categories": [
+      "micropub"
+    ]
+  },
+  {
+    "description": "A Microsub server reference implementation for WordPress.",
+    "url": "https://wordpress.org/plugins/microsub/",
+    "name": "wordpress-microsub",
+    "repo": "https://github.com/indieweb/wordpress-microsub",
+    "packages": {
+      "wordpress": [
+        "microsub"
+      ]
+    },
+    "categories": [
+      "microsub"
+    ]
+  },
+  {
+    "description": "add \"Microformats 2\" classes to your WordPress theme",
+    "url": "https://wordpress.org/plugins/wp-uf2/",
+    "name": "wordpress-uf2",
+    "repo": "https://github.com/indieweb/wordpress-uf2",
+    "packages": {
+      "wordpress": [
+        "wp-uf2"
+      ]
+    },
+    "categories": [
+      "microformats"
+    ]
+  },
+  {
+    "description": "H2VX microformats to vCard/iCalendar converter, test dev.h2vx.com for issues",
+    "name": "h2vx.com",
+    "repo": "https://github.com/microformats/h2vx.com",
+    "url": "http://microformats.org/wiki/h2vx",
+    "categories": [
+      "web-service"
+    ]
+  },
+  {
+    "description": "Microformats2 parser written in Python",
+    "name": "mf2py",
+    "repo": "https://github.com/microformats/mf2py",
+    "url": "http://microformats.github.io/mf2py/",
+    "packages": {
+      "python": [
+        "mf2py"
+      ]
+    },
+    "categories": [
+      "library",
+      "microformats"
+    ]
+  },
+  {
+    "description": "Microformats parser for node.js",
+    "name": "microformat-node",
+    "repo": "https://github.com/microformats/microformat-node",
+    "url": "http://glennjones.net/tools/microformats/",
+    "packages": {
+      "npm": [
+        "microformat-node"
+      ]
+    },
+    "categories": [
+      "library",
+      "microformats"
+    ]
+  },
+  {
+    "description": "A JavaScript microformats parser for the browser and node.js",
+    "name": "microformats-parser",
+    "repo": "https://github.com/microformats/microformats-parser",
+    "url": "https://microformats.github.io/microformats-parser/",
+    "packages": {
+      "npm": [
+        "microformats-parser"
+      ]
+    },
+    "categories": [
+      "library",
+      "microformats"
+    ]
+  },
+  {
+    "description": "php-mf2 is a pure, generic microformats-2 parser for PHP. It makes HTML as easy to consume as JSON.",
+    "name": "php-mf2",
+    "repo": "https://github.com/microformats/php-mf2",
+    "url": "",
+    "packages": {
+      "php": [
+        "mf2/mf2"
+      ]
+    },
+    "categories": [
+      "library",
+      "microformats"
+    ]
+  },
+  {
+    "description": "Microformats test suite",
+    "name": "microformats/tests",
+    "repo": "https://github.com/microformats/tests",
+    "url": "http://microformats.org/wiki/microformats2"
+  },
+  {
+    "description": "A Micropub browser extension",
+    "name": "omnibear",
+    "repo": "https://github.com/omnibear/omnibear",
+    "url": "https://omnibear.com",
+    "categories": [
+      "app",
+      "micropub"
+    ]
+  },
+  {
+    "description": "Public website for Omnibear",
+    "name": "omnibear-site",
+    "repo": "https://github.com/omnibear/omnibear-site",
+    "url": "https://omnibear.com",
+    "categories": [
+      "documentation",
+      "micropub"
+    ]
+  },
+  {
+    "name": "@rmdes/indiekit-endpoint-activitypub",
+    "url": "https://github.com/rmdes/indiekit-endpoint-activitypub#readme",
+    "repo": "https://github.com/rmdes/indiekit-endpoint-activitypub",
+    "description": "ActivityPub federation endpoint for Indiekit via Fedify. Adds full fediverse support: actor, inbox, outbox, followers, following, syndication, and Mastodon migration.",
+    "packages": {
+      "npm": [
+        "@rmdes/indiekit-endpoint-activitypub"
+      ]
+    }
+  },
+  {
+    "name": "@rmdes/indiekit-endpoint-blogroll",
+    "url": "https://github.com/rmdes/indiekit-endpoint-blogroll",
+    "repo": "https://github.com/rmdes/indiekit-endpoint-blogroll",
+    "description": "Blogroll endpoint for Indiekit. Aggregates blog feeds from OPML, JSON feeds, or manual entry.",
+    "packages": {
+      "npm": [
+        "@rmdes/indiekit-endpoint-blogroll"
+      ]
+    }
+  },
+  {
+    "name": "@rmdes/indiekit-endpoint-comments",
+    "url": "https://github.com/rmdes/indiekit-endpoint-comments#readme",
+    "repo": "https://github.com/rmdes/indiekit-endpoint-comments",
+    "description": "Comment endpoint for Indiekit. Allows visitors to authenticate via IndieAuth/RelMeAuth and post comments on blog posts.",
+    "packages": {
+      "npm": [
+        "@rmdes/indiekit-endpoint-comments"
+      ]
+    }
+  },
+  {
+    "name": "@rmdes/indiekit-endpoint-cv",
+    "url": "https://github.com/rmdes/indiekit-endpoint-cv",
+    "repo": "https://github.com/rmdes/indiekit-endpoint-cv",
+    "description": "CV/Resume editor endpoint for Indiekit. Manage work experience, projects, skills, education, and interests from the admin UI.",
+    "packages": {
+      "npm": [
+        "@rmdes/indiekit-endpoint-cv"
+      ]
+    }
+  },
+  {
+    "name": "@rmdes/indiekit-endpoint-donation",
+    "url": "https://github.com/rmdes/indiekit-endpoint-donation",
+    "repo": "https://github.com/rmdes/indiekit-endpoint-donation",
+    "description": "Stripe-backed donation endpoint for Indiekit. Treats Stripe Products as campaigns, PaymentIntents/Checkout Sessions as donations, exposes admin UI + public stats API + rebuild trigger.",
+    "packages": {
+      "npm": [
+        "@rmdes/indiekit-endpoint-donation"
+      ]
+    }
+  },
+  {
+    "name": "@rmdes/indiekit-endpoint-funkwhale",
+    "url": "https://github.com/rmdes/indiekit-endpoint-funkwhale",
+    "repo": "https://github.com/rmdes/indiekit-endpoint-funkwhale",
+    "description": "Funkwhale listening activity endpoint for Indiekit. Display listening history, favorites, and statistics.",
+    "packages": {
+      "npm": [
+        "@rmdes/indiekit-endpoint-funkwhale"
+      ]
+    }
+  },
+  {
+    "name": "@rmdes/indiekit-endpoint-github",
+    "url": "https://github.com/rmdes/indiekit-endpoint-github",
+    "repo": "https://github.com/rmdes/indiekit-endpoint-github",
+    "description": "GitHub activity endpoint for Indiekit. Display commits, stars, contributions, and featured repositories.",
+    "packages": {
+      "npm": [
+        "@rmdes/indiekit-endpoint-github"
+      ]
+    }
+  },
+  {
+    "name": "@rmdes/indiekit-endpoint-homepage",
+    "url": "https://github.com/rmdes/indiekit-endpoint-homepage",
+    "repo": "https://github.com/rmdes/indiekit-endpoint-homepage",
+    "description": "Homepage builder endpoint for Indiekit. Configure layout, sections, and sidebar widgets from the admin UI.",
+    "packages": {
+      "npm": [
+        "@rmdes/indiekit-endpoint-homepage"
+      ]
+    }
+  },
+  {
+    "name": "@rmdes/indiekit-endpoint-lastfm",
+    "url": "https://github.com/rmdes/indiekit-endpoint-lastfm",
+    "repo": "https://github.com/rmdes/indiekit-endpoint-lastfm",
+    "description": "Last.fm scrobble and listening activity endpoint for Indiekit. Display listening history, loved tracks, and statistics.",
+    "packages": {
+      "npm": [
+        "@rmdes/indiekit-endpoint-lastfm"
+      ]
+    }
+  },
+  {
+    "name": "@rmdes/indiekit-endpoint-microsub",
+    "url": "https://github.com/rmdes/indiekit-endpoint-microsub",
+    "repo": "https://github.com/rmdes/indiekit-endpoint-microsub",
+    "description": "Microsub endpoint for Indiekit. Enables subscribing to feeds and reading content using the Microsub protocol.",
+    "packages": {
+      "npm": [
+        "@rmdes/indiekit-endpoint-microsub"
+      ]
+    }
+  },
+  {
+    "name": "@rmdes/indiekit-endpoint-podroll",
+    "url": "https://github.com/rmdes/indiekit-endpoint-podroll",
+    "repo": "https://github.com/rmdes/indiekit-endpoint-podroll",
+    "description": "Podcast roll endpoint for Indiekit. Aggregates podcast episodes from FreshRSS, displays on frontend with OPML sidebar.",
+    "packages": {
+      "npm": [
+        "@rmdes/indiekit-endpoint-podroll"
+      ]
+    }
+  },
+  {
+    "name": "@rmdes/indiekit-endpoint-posts",
+    "url": "https://github.com/rmdes/indiekit-endpoint-posts",
+    "repo": "https://github.com/rmdes/indiekit-endpoint-posts",
+    "description": "Post management endpoint for Indiekit with syndicate form fix. View posts published by your Micropub endpoint and publish new posts to it.",
+    "packages": {
+      "npm": [
+        "@rmdes/indiekit-endpoint-posts"
+      ]
+    }
+  },
+  {
+    "name": "@rmdes/indiekit-endpoint-rss",
+    "url": "https://github.com/rmdes/indiekit-endpoint-rss",
+    "repo": "https://github.com/rmdes/indiekit-endpoint-rss",
+    "description": "RSS feed reader endpoint for Indiekit. Aggregates multiple feeds, caches in MongoDB, displays on frontend.",
+    "packages": {
+      "npm": [
+        "@rmdes/indiekit-endpoint-rss"
+      ]
+    }
+  },
+  {
+    "name": "@rmdes/indiekit-endpoint-syndicate",
+    "url": "https://github.com/rmdes/indiekit-endpoint-syndicate",
+    "repo": "https://github.com/rmdes/indiekit-endpoint-syndicate",
+    "description": "Syndication endpoint for Indiekit. Fork of @indiekit/endpoint-syndicate with batch syndication support and bug fixes.",
+    "packages": {
+      "npm": [
+        "@rmdes/indiekit-endpoint-syndicate"
+      ]
+    }
+  },
+  {
+    "name": "@rmdes/indiekit-endpoint-webmention-io",
+    "url": "https://github.com/rmdes/indiekit-endpoint-webmention-io",
+    "repo": "https://github.com/rmdes/indiekit-endpoint-webmention-io",
+    "description": "Webmention moderation endpoint for Indiekit. Syncs webmentions from webmention.io into MongoDB with delete, block, and privacy removal capabilities.",
+    "packages": {
+      "npm": [
+        "@rmdes/indiekit-endpoint-webmention-io"
+      ]
+    }
+  },
+  {
+    "name": "@rmdes/indiekit-endpoint-webmention-sender",
+    "url": "https://github.com/rmdes/indiekit-endpoint-webmention-sender#readme",
+    "repo": "https://github.com/rmdes/indiekit-endpoint-webmention-sender",
+    "description": "Webmention sender endpoint for Indiekit. Automatically discovers and sends webmentions for published posts.",
+    "packages": {
+      "npm": [
+        "@rmdes/indiekit-endpoint-webmention-sender"
+      ]
+    }
+  },
+  {
+    "name": "@rmdes/indiekit-frontend",
+    "url": "https://github.com/rmdes/indiekit-frontend#readme",
+    "repo": "https://github.com/rmdes/indiekit-frontend",
+    "description": "Frontend components for Indiekit (fork with floating toolbar)",
+    "packages": {
+      "npm": [
+        "@rmdes/indiekit-frontend"
+      ]
+    }
+  },
+  {
+    "name": "@rmdes/indiekit-startup-gate",
+    "url": "https://github.com/rmdes/indiekit-startup-gate#readme",
+    "repo": "https://github.com/rmdes/indiekit-startup-gate",
+    "description": "Defers plugin background tasks until the Indiekit host signals readiness (e.g., after Eleventy build completes).",
+    "packages": {
+      "npm": [
+        "@rmdes/indiekit-startup-gate"
+      ]
+    }
+  },
+  {
+    "name": "@rmdes/indiekit-syndicator-bluesky",
+    "url": "https://github.com/rmdes/indiekit-syndicator-bluesky#readme",
+    "repo": "https://github.com/rmdes/indiekit-syndicator-bluesky",
+    "description": "Bluesky syndicator for Indiekit with external like support",
+    "packages": {
+      "npm": [
+        "@rmdes/indiekit-syndicator-bluesky"
+      ]
+    }
+  },
+  {
+    "name": "@rmdes/indiekit-syndicator-mastodon",
+    "url": "https://github.com/rmdes/indiekit-syndicator-mastodon#readme",
+    "repo": "https://github.com/rmdes/indiekit-syndicator-mastodon",
+    "description": "Mastodon syndicator for Indiekit with external like support",
+    "packages": {
+      "npm": [
+        "@rmdes/indiekit-syndicator-mastodon"
+      ]
+    }
+  },
+  {
+    "name": "bridgy",
+    "description": "Connects your web site to social media. Likes, retweets, mentions, cross-posting, and more...",
+    "repo": "https://github.com/snarfed/bridgy",
+    "url": "https://brid.gy",
+    "categories": [
+      "web-service"
+    ]
+  },
+  {
+    "name": "bridgy-fed",
+    "description": "A bridge between decentralized social networks",
+    "repo": "https://github.com/snarfed/bridgy-fed",
+    "url": "https://fed.brid.gy",
+    "categories": [
+      "web-service"
+    ]
+  }
+]
